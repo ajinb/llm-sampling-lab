@@ -1,0 +1,64 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "seed": 20261027,
+  "samples": 16,
+  "length": 64,
+  "rows": [
+    {
+      "setting": "T=0.7",
+      "tail_token_rate": 0.0177,
+      "distinct_openings": 0.956,
+      "repeated_trigram_rate": 0.0255,
+      "tokens": 19057
+    },
+    {
+      "setting": "T=1.0",
+      "tail_token_rate": 0.1139,
+      "distinct_openings": 0.991,
+      "repeated_trigram_rate": 0.0077,
+      "tokens": 19138
+    },
+    {
+      "setting": "T=1.5",
+      "tail_token_rate": 0.7979,
+      "distinct_openings": 1.0,
+      "repeated_trigram_rate": 0.0001,
+      "tokens": 19701
+    },
+    {
+      "setting": "T=1.5, top-p 0.9",
+      "tail_token_rate": 0.6727,
+      "distinct_openings": 1.0,
+      "repeated_trigram_rate": 0.0005,
+      "tokens": 19794
+    },
+    {
+      "setting": "T=1.5, min-p 0.1",
+      "tail_token_rate": 0.0243,
+      "distinct_openings": 0.991,
+      "repeated_trigram_rate": 0.0081,
+      "tokens": 19411
+    },
+    {
+      "setting": "T=1.0, top-k 40",
+      "tail_token_rate": 0.0639,
+      "distinct_openings": 0.994,
+      "repeated_trigram_rate": 0.0113,
+      "tokens": 19190
+    },
+    {
+      "setting": "T=1.0, top-p 0.9",
+      "tail_token_rate": 0.0437,
+      "distinct_openings": 0.978,
+      "repeated_trigram_rate": 0.0094,
+      "tokens": 19107
+    },
+    {
+      "setting": "T=1.0, min-p 0.1",
+      "tail_token_rate": 0.0011,
+      "distinct_openings": 0.972,
+      "repeated_trigram_rate": 0.0242,
+      "tokens": 19039
+    }
+  ]
+}

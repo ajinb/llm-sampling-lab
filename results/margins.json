@@ -1,0 +1,11 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "steps": 2316,
+  "median_top2_gap": 1.7901134490966797,
+  "smallest_top2_gap": 0.00040912628173828125,
+  "steps_with_gap_under_0.01": 5,
+  "batch_noise_median": 0.0,
+  "batch_noise_max": 0.0,
+  "device_noise_median": 1.049041748046875e-05,
+  "device_noise_max": 3.62396240234375e-05
+}

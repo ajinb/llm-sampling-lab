@@ -1,0 +1,21 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "seed": 20261027,
+  "samples": 16,
+  "length": 128,
+  "prompts": 20,
+  "devices": {
+    "cpu": {
+      "repeat_runs_identical": 20,
+      "alone_vs_batched_identical": 20,
+      "first_divergence_positions": []
+    },
+    "mps": {
+      "repeat_runs_identical": 20,
+      "alone_vs_batched_identical": 20,
+      "first_divergence_positions": []
+    }
+  },
+  "cpu_vs_mps_identical": 20,
+  "cpu_vs_mps_first_divergence": []
+}
